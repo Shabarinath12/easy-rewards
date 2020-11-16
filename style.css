@@ -1,0 +1,129 @@
+body {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+header {
+  background-color: #093a70;
+  height: 70px;
+}
+.navbar {
+  margin: 0px 16px;
+  width: 90%;
+}
+.navbar-brand {
+  margin-left: 46px;
+  float: left;
+}
+.menu {
+  position: relative;
+  left: 12%;
+}
+.show {
+  background-color: #093a70;
+  float: right;
+}
+.nav-link {
+  color: #fff !important;
+  padding-left: 16px !important;
+}
+.navbar-nav.button {
+  padding: 16px;
+}
+.sign-btn {
+  position: relative;
+  bottom: 16px;
+}
+
+.btn {
+  background-color: #01244a;
+  color: #fff;
+}
+.banner {
+  margin: 16px;
+}
+.content.row {
+  margin: 2px;
+}
+.card {
+  border: 1px solid #2e2e2e !important;
+  border-radius: 0 !important;
+}
+.card.card-1 {
+  background-color: #f8a51a;
+}
+.card.card-2 {
+  height: 110px;
+}
+.credits-img {
+  background-color: #fcae16;
+  width: 36px;
+  position: absolute;
+  top: 38px;
+  left: 192px;
+}
+.credits-btn {
+  width: 45%;
+  height: 35px;
+  margin: auto;
+  background-color: #cc663b !important;
+}
+.card.card-3 {
+  text-align: center;
+}
+.credits-content {
+  margin: 12px 80px;
+}
+.credits-text {
+  padding: 6px 16px;
+  line-height: 22px;
+}
+.italian {
+  color: #fff;
+  font-size: 19px;
+}
+.background {
+  margin: 21px;
+}
+.card.card-4 {
+  position: relative;
+  bottom: 132px;
+}
+.margin-dotted {
+  margin: 16px;
+  border: 1px dotted #000;
+}
+.credits.row {
+  margin: 20px;
+  padding: 40px;
+}
+.credits {
+  padding: 20px;
+}
+.footer {
+  background-color: #000000;
+  color: #737373;
+  padding: 22px;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  .credits-content {
+    margin: 12px 0px;
+  }
+  .credits-text {
+    padding: 6px 32px;
+    line-height: 22px;
+    font-size: 12px;
+  }
+  body.italian {
+    font-size: 12px;
+  }
+  .card-4 {
+    position: relative;
+    top: 12px;
+  }
+  .footer {
+    position: relative;
+    top: 28px;
+  }
+}
